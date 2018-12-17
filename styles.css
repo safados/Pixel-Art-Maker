@@ -1,0 +1,45 @@
+/* TODO: make the all the content in center */
+body {
+    text-align: center;
+}
+
+/* TODO: chng font style */
+h1 {
+    font: 70px monoton;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+/* TODO: defult border color of the table */
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+/* TODO: set the table row hieght */
+tr {
+    height: 20px;
+}
+
+/* TODO: set the table cell width  */
+td {
+    width: 20px;
+}
+
+/* TODO: set the input box width  */
+input[type=number] {
+    width: 10em;
+}
